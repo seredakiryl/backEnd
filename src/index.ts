@@ -12,6 +12,9 @@
 //     console.log(`Example app listening on port ${port}`)
 // })
 
+
+
+// 2_leson
 import express, { Request, Response } from 'express'
  import bodyParser from "body-parser";
 
@@ -105,4 +108,6 @@ app.get('/addresses/:id', (req: Request, res: Response) => {
 app.listen(port, () => {
     console.log('Example app listening on port: ${port}')
 })
+
+
 
